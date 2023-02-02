@@ -477,16 +477,16 @@ html, body {
   width: 101%;
   height: 101%;
   border-radius: 12px;
-  background-image: linear-gradient(var(--rotate), #00e56f, #0da356 43%, #0E6EB2);
+  background: linear-gradient(var(--rotate), #00e56f, #0da356 43%, #0E6EB2);
     position: absolute;
     z-index: 1;
     top: -0.5%;
     left: -0.5%;
     animation: spin 3.5s linear infinite;
-    transition: background-image 0.3s;
+    transition: background 0.3s;
 }
 .dark .projects__card::before {
-  background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
+  background: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
 }
 .projects__card::after {
   position: absolute;
@@ -501,14 +501,14 @@ html, body {
   margin: 0 auto;
   transform: scale(0.71);
   filter: blur(110px);
-  background-image: linear-gradient(var(--rotate), #00e56f, #0da356 43%, #0E6EB2);
+  background: linear-gradient(var(--rotate), #00e56f, #0da356 43%, #0E6EB2);
     opacity: 1;
   transition: opacity .5s;
   animation: spin 3.5s linear infinite;
-  transition: background-image 0.3s;
+  transition: background 0.3s;
 }
 .dark .projects__card::after {
-  background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
+  background: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
 }
 .projects__link {
   background-color: var(--project-card-bg);
