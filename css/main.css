@@ -744,11 +744,24 @@ html, body {
   0% {transform: rotate(0deg) translate(-102px) rotate(0deg); }
   100% {transform: rotate(360deg) translate(-102px) rotate(-360deg); }
 }
+@keyframes rotate {
+  0% {transform: rotate(0deg) translate(-102px) rotate(0deg); }
+  100% {transform: rotate(360deg) translate(-102px) rotate(-360deg); }
+}
 @-webkit-keyframes rotate2 {
   0% {transform: rotate(0deg) translate(102px) rotate(0deg); }
   100% {transform: rotate(360deg) translate(102px) rotate(-360deg); }
 }
+@keyframes rotate2 {
+  0% {transform: rotate(0deg) translate(102px) rotate(0deg); }
+  100% {transform: rotate(360deg) translate(102px) rotate(-360deg); }
+}
 @-webkit-keyframes pulse {
+  20% {transform: scale(0.9)}
+  50% {transform: scale(1)}
+  100% {transform: scale(1)}
+}
+@keyframes pulse {
   20% {transform: scale(0.9)}
   50% {transform: scale(1)}
   100% {transform: scale(1)}
@@ -758,18 +771,23 @@ html, body {
 	50% {background-position: 100% 50%;}
 	100% {background-position: 0% 50%;}
 }
+@keyframes gradient {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
+}
 @property --rotate {
   syntax: "<angle>";
   initial-value: 132deg;
   inherits: false;
 }
+@-webkit-keyframes spin {
+  0% {--rotate: 0deg;}
+  100% {--rotate: 360deg;}
+}
 @keyframes spin {
-  0% {
-    --rotate: 0deg;
-  }
-  100% {
-    --rotate: 360deg;
-  }
+  0% {--rotate: 0deg;}
+  100% {--rotate: 360deg;}
 }
 @media (max-width: 767px) {
 
