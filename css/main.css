@@ -557,7 +557,6 @@ html, body {
 
 /* Projects  */
 .projects__card {
-  max-width: 370px;
   padding: 3px;
   position: relative;
   display: flex;
@@ -803,9 +802,6 @@ html, body {
 [class^="swiper-button-"], .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet::before {
   transition: all 0.3s ease;
 }
-.swiper-slide {
-  /* max-width: 370px; */
-}
 .swiper-container {
   width: 100%;
   padding: 0 0 30px 0;
@@ -866,6 +862,9 @@ html, body {
 }
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
   left: -10px;
+}
+.swiper-container-3d .swiper-slide-shadow-left,.swiper-container-3d .swiper-slide-shadow-right, .swiper-container-3d .swiper-slide-shadow-top, .swiper-container-3d .swiper-slide-shadow-bottom {
+  background-image:none;
 }
 
 /* Animation */
