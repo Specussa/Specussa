@@ -588,7 +588,7 @@ html, body {
 /* .dark .projects__card::before {
   background: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
 } */
-.projects__card::after {
+/* .projects__card::after {
   position: absolute;
   content: "";
   top: 0;
@@ -602,15 +602,15 @@ html, body {
   -webkit-transform: scale(0.71);
   transform: scale(0.71);
   filter: blur(110px);
-  /* background: linear-gradient(var(--rotate), #00e56f, #0da356 43%, #0E6EB2); */
-  opacity: 1;
+  background: linear-gradient(var(--rotate), #00e56f, #0da356 43%, #0E6EB2);
+  opacity: 1; */
   /* -webkit-animation: spin 3.5s linear infinite;
   animation: spin 3.5s linear infinite;
   -webkit-transition: background 0.3s, opacity .5s;
   -moz-transition: background 0.3s, opacity .5s;
   -o-transition: background 0.3s, opacity .5s;
   transition: background 0.3s, opacity .5s; */
-}
+/* } */
 /* .dark .projects__card::after {
   background: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
 } */
