@@ -259,6 +259,8 @@ html, body {
 	background-size: 400% 400%;
   -webkit-animation: gradient 5s ease infinite;
 	animation: gradient 5s ease infinite;
+  -webkit-animation-name:'gradient';
+  -webkit-animation-duration: 5s ease infinite;
   box-shadow: 0 0 0 5px #fff;
   margin: 0 auto 40px;
   position: relative;
