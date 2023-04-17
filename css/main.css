@@ -242,22 +242,6 @@ html, body {
 .dark .header__title small {
   text-shadow: 1px 1px 0px #3c67e3, 2px 2px 0px #4e00c2;
 }
-.header__title strong {
-  font-size: 60px;
-  font-weight: 700;
-}
-.header__title em {
-  font-style: normal;
-  color: var(--dark-bg);
-  text-shadow: -1px -1px 0px #fff, 1px 1px 0px #00e56f, 2px 2px 0px #0E6E6F;
-  -webkit-transition: color 0.3s, text-shadow 0.3s;
-  -moz-transition: color 0.3s, text-shadow 0.3s;
-  -o-transition: color 0.3s, text-shadow 0.3s;
-  transition: color 0.3s, text-shadow 0.3s;
-}
-.dark .header__title em {
-  text-shadow: -1px -1px 0px #5ddcff, 1px 1px 0px #3c67e3, 2px 2px 0px #4e00c2;
-}
 .header__text {
   margin-bottom: 40px;
   font-size: 18px;
@@ -807,9 +791,6 @@ html, body {
   }
   .header__title {
     font-size: 30px;
-  }
-  .header__title strong {
-    font-size: 40px;
   }
   .header__animation h1 {
     font-size:8vw;
