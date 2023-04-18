@@ -738,7 +738,9 @@ html, body {
 }
 .biography__card-tsuru{
   width: auto;
+  height: auto;
   flex: 0 0 auto;
+  border-radius: 50%;
 }
 .biography__card-tsuru::before{
   border-radius: 50%;
