@@ -615,9 +615,9 @@ html, body {
   opacity: 1;
   z-index: 0;
 }
-/* .dark .projects__card::after {
+.dark .projects__card::after {
   background: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
-} */
+}
 .projects__link {
   background-color: var(--project-card-bg);
   box-shadow: var(--box-shadow);
