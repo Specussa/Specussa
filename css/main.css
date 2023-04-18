@@ -602,6 +602,8 @@ html, body {
   -webkit-transform: scale(0.71);
   transform: scale(0.71);
   -webkit-filter: blur(75px);
+  -moz-filter: blur(75px);
+  -ms-filter: blur(75px);
   filter: blur(75px);
   background: linear-gradient(var(--rotate), #00e56f, #0da356 43%, #0E6EB2);
   opacity: 1;
