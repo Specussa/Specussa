@@ -596,13 +596,13 @@ html, body {
   left: 0;
   right: 0;
   z-index: 1;
-  height: 10%;
-  width: 10%;
+  height: 100%;
+  width: 100%;
   margin: 0 auto;
   -webkit-transform: scale(0.71);
   transform: scale(0.71);
-  -webkit-filter: blur(80px);
-  filter: blur(80px);
+  -webkit-filter: blur(75px);
+  filter: blur(75px);
   background: linear-gradient(var(--rotate), #00e56f, #0da356 43%, #0E6EB2);
   opacity: 1;
   /* -webkit-animation: spin 3.5s linear infinite;
