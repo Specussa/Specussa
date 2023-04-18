@@ -601,6 +601,7 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0 auto;
+  -webkit-backdrop-filter: blur(75px);
   -webkit-transform: scale(0.71);
   transform: scale(0.71);
   -webkit-filter: blur(75px);
