@@ -264,10 +264,6 @@ html, body {
   -webkit-animation-delay: 2.9s;
   animation-delay: 2.9s;
 }
-.header__title small:nth-child(5) {
-  -webkit-animation-delay: 3.2s;
-  animation-delay: 3.2s;
-}
 .dark .header__title small {
   text-shadow: 1px 1px 0px #3c67e3, 2px 2px 0px #4e00c2;
 }
@@ -576,7 +572,6 @@ html, body {
   border-radius: 12px;
   background: linear-gradient(var(--rotate), #00e56f, #0da356 43%, #0E6EB2);
   position: absolute;
-  z-index: 1;
   top: -0.5%;
   left: -0.5%;
   /* -webkit-animation: spin 3.5s linear infinite;
@@ -597,13 +592,13 @@ html, body {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 1;
   height: 100%;
   width: 100%;
   margin: 0 auto;
-  -webkit-backdrop-filter: blur(75px);
   -webkit-transform: scale(0.71);
   transform: scale(0.71);
+  -webkit-backdrop-filter: blur(75px);
+  backdrop-filter: blur(75px);
   -webkit-filter: blur(75px);
   -moz-filter: blur(75px);
   -ms-filter: blur(75px);
