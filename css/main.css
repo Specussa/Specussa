@@ -1055,4 +1055,13 @@ html, body {
   .biography__desc {
     font-size: 16px;
   }
+
+  /* swiper */
+
+  .swiper-container {
+    overflow-x: visible;
+  }
+  .swiper-button-next, .swiper-button-prev {
+    display: none;
+  }
 }
