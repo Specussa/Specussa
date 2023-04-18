@@ -3,6 +3,7 @@
 // Слайдер
 var sliderSelector = '.swiper-project',
     options = {
+      autoplay: true,
       init: false,
       loop: true,
       speed:800,
@@ -44,6 +45,7 @@ var mySwiper = new Swiper(sliderSelector, options);
 mySwiper.init();
 var sliderSelector = '.swiper-coursework',
     options = {
+      autoplay: true,
       init: false,
       loop: true,
       speed:800,
