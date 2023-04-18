@@ -268,10 +268,6 @@ html, body {
   -webkit-animation-delay: 3.2s;
   animation-delay: 3.2s;
 }
-.header__title small:nth-child(6) {
-  -webkit-animation-delay: 3.4s;
-  animation-delay: 3.2s;
-}
 .dark .header__title small {
   text-shadow: 1px 1px 0px #3c67e3, 2px 2px 0px #4e00c2;
 }
@@ -605,6 +601,7 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0 auto;
+  -webkit-backdrop-filter: blur(75px);
   -webkit-transform: scale(0.71);
   transform: scale(0.71);
   -webkit-filter: blur(75px);
@@ -613,6 +610,12 @@ html, body {
   filter: blur(75px);
   background: linear-gradient(var(--rotate), #00e56f, #0da356 43%, #0E6EB2);
   opacity: 1;
+  /* -webkit-animation: spin 3.5s linear infinite;
+  animation: spin 3.5s linear infinite;
+  -webkit-transition: background 0.3s, opacity .5s;
+  -moz-transition: background 0.3s, opacity .5s;
+  -o-transition: background 0.3s, opacity .5s;
+  transition: background 0.3s, opacity .5s; */
   z-index: 0;
 }
 .dark .projects__card::after {
@@ -940,14 +943,14 @@ html, body {
   initial-value: 132deg;
   inherits: false;
 }
-@-webkit-keyframes spin {
+/* @-webkit-keyframes spin {
   0% {--rotate: 0deg;}
   100% {--rotate: 360deg;}
 }
 @keyframes spin {
   0% {--rotate: 0deg;}
   100% {--rotate: 360deg;}
-}
+} */
 @-webkit-keyframes bounceIn{
   0%{opacity: 0;-webkit-transform: scale(0.3) translate3d(0,0,0);}
   50%{opacity: 0.9;-webkit-transform: scale(1.1);}
