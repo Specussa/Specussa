@@ -1003,6 +1003,10 @@ html, body {
   .header__animation h3.span {
     font-size: 3.5vw;
   }
+  .header__circle, .header__moscow {
+    -webkit-animation: none;
+    animation: none;
+  }
 
   /* Nav */
 
@@ -1097,5 +1101,13 @@ html, body {
   }
   .swiper-button-next, .swiper-button-prev {
     display: none;
+  }
+}
+@media (max-width: 576px) {
+
+  /* Header  */
+
+  .header{
+    min-height: 450px;
   }
 }
