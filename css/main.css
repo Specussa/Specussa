@@ -606,7 +606,7 @@ html, body {
   -moz-filter: blur(75px);
   -ms-filter: blur(75px);
   filter: blur(75px);
-  background: linear-gradient(var(--rotate), #00e56f, #0da356 43%, #0E6EB2);
+  box-shadow: linear-gradient(var(--rotate), #00e56f, #0da356 43%, #0E6EB2);
   opacity: 1;
   /* -webkit-animation: spin 3.5s linear infinite;
   animation: spin 3.5s linear infinite;
@@ -618,7 +618,7 @@ html, body {
   z-index: 0;
 }
 .dark .projects__card::after {
-  background: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
+  box-shadow: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
 }
 .projects__link {
   background-color: var(--project-card-bg);

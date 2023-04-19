@@ -5,11 +5,11 @@ var sliderSelector = '.swiper-project',
     options = {
       autoplay: true,
       init: false,
-      loop: true,
+      // loop: true,
       speed:800,
       slidesPerView: 3, // or 'auto'
       // spaceBetween: 10,
-      centeredSlides : true,
+      // centeredSlides : true,
       effect: 'coverflow', // 'cube', 'fade', 'coverflow',
       coverflowEffect: {
         rotate: 50, // Slide rotate in degrees
@@ -19,7 +19,6 @@ var sliderSelector = '.swiper-project',
         slideShadows : true, // Enables slides shadows
       },
       grabCursor: true,
-      parallax: true,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -47,11 +46,11 @@ var sliderSelector = '.swiper-coursework',
     options = {
       autoplay: true,
       init: false,
-      loop: true,
+      // loop: true,
       speed:800,
       slidesPerView: 3, // or 'auto'
       // spaceBetween: 10,
-      centeredSlides : true,
+      // centeredSlides : true,
       effect: 'coverflow', // 'cube', 'fade', 'coverflow',
       coverflowEffect: {
         rotate: 50, // Slide rotate in degrees
