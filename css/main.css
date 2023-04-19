@@ -1095,7 +1095,7 @@ html, body {
     font-size: 4vw;
   }
   .header__skills .header__loader {
-    font-size: 8vw;
+    font-size: 7.8vw;
   }
   .header__title {
     font-size: 30px;
@@ -1212,5 +1212,8 @@ html, body {
 
   .header{
     min-height: 450px;
+  }
+  .header__skills {
+    min-height: 200px;
   }
 }
