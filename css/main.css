@@ -359,13 +359,13 @@ html, body {
   background: white;
   z-index: 3;
 }
-.clock {
+.header__clock {
   display: inline-block;
   border-radius: 50%;
   font-size: 210px;
   overflow: hidden;
 }
-.clock__stroke {
+.header__clock-stroke {
   margin-left: -0.5em;
   margin-top: -0.5em;
   font-size: inherit;
@@ -376,7 +376,7 @@ html, body {
   left: 50%;
   top: 50%;
 }
-.clock__stroke::after {
+.header__clock-stroke::after {
   content: "";
   border-radius: 0 0 0.02em 0.02em;
   background-color: #fff;
@@ -388,187 +388,187 @@ html, body {
   top: 0.01em;
   left: 50%;
 }
-.clock__stroke--small::after {
+.header__clock-stroke--small::after {
   content: "";
   border-radius: 0 0 0.0125em 0.0125em;
   height: 0.025em;
   width: 0.005em;
 }
-.clock__stroke--1 {
+.header__clock-stroke--1 {
   transform: rotate(6deg);
 }
-.clock__stroke--2 {
+.header__clock-stroke--2 {
   transform: rotate(12deg);
 }
-.clock__stroke--3 {
+.header__clock-stroke--3 {
   transform: rotate(18deg);
 }
-.clock__stroke--4 {
+.header__clock-stroke--4 {
   transform: rotate(24deg);
 }
-.clock__stroke--5 {
+.header__clock-stroke--5 {
   transform: rotate(30deg);
 }
-.clock__stroke--6 {
+.header__clock-stroke--6 {
   transform: rotate(36deg);
 }
-.clock__stroke--7 {
+.header__clock-stroke--7 {
   transform: rotate(42deg);
 }
-.clock__stroke--8 {
+.header__clock-stroke--8 {
   transform: rotate(48deg);
 }
-.clock__stroke--9 {
+.header__clock-stroke--9 {
   transform: rotate(54deg);
 }
-.clock__stroke--10 {
+.header__clock-stroke--10 {
   transform: rotate(60deg);
 }
-.clock__stroke--11 {
+.header__clock-stroke--11 {
   transform: rotate(66deg);
 }
-.clock__stroke--12 {
+.header__clock-stroke--12 {
   transform: rotate(72deg);
 }
-.clock__stroke--13 {
+.header__clock-stroke--13 {
   transform: rotate(78deg);
 }
-.clock__stroke--14 {
+.header__clock-stroke--14 {
   transform: rotate(84deg);
 }
-.clock__stroke--15 {
+.header__clock-stroke--15 {
   transform: rotate(90deg);
 }
-.clock__stroke--16 {
+.header__clock-stroke--16 {
   transform: rotate(96deg);
 }
-.clock__stroke--17 {
+.header__clock-stroke--17 {
   transform: rotate(102deg);
 }
-.clock__stroke--18 {
+.header__clock-stroke--18 {
   transform: rotate(108deg);
 }
-.clock__stroke--19 {
+.header__clock-stroke--19 {
   transform: rotate(114deg);
 }
-.clock__stroke--20 {
+.header__clock-stroke--20 {
   transform: rotate(120deg);
 }
-.clock__stroke--21 {
+.header__clock-stroke--21 {
   transform: rotate(126deg);
 }
-.clock__stroke--22 {
+.header__clock-stroke--22 {
   transform: rotate(132deg);
 }
-.clock__stroke--23 {
+.header__clock-stroke--23 {
   transform: rotate(138deg);
 }
-.clock__stroke--24 {
+.header__clock-stroke--24 {
   transform: rotate(144deg);
 }
-.clock__stroke--25 {
+.header__clock-stroke--25 {
   transform: rotate(150deg);
 }
-.clock__stroke--26 {
+.header__clock-stroke--26 {
   transform: rotate(156deg);
 }
-.clock__stroke--27 {
+.header__clock-stroke--27 {
   transform: rotate(162deg);
 }
-.clock__stroke--28 {
+.header__clock-stroke--28 {
   transform: rotate(168deg);
 }
-.clock__stroke--29 {
+.header__clock-stroke--29 {
   transform: rotate(174deg);
 }
-.clock__stroke--30 {
+.header__clock-stroke--30 {
   transform: rotate(180deg);
 }
-.clock__stroke--31 {
+.header__clock-stroke--31 {
   transform: rotate(186deg);
 }
-.clock__stroke--32 {
+.header__clock-stroke--32 {
   transform: rotate(192deg);
 }
-.clock__stroke--33 {
+.header__clock-stroke--33 {
   transform: rotate(198deg);
 }
-.clock__stroke--34 {
+.header__clock-stroke--34 {
   transform: rotate(204deg);
 }
-.clock__stroke--35 {
+.header__clock-stroke--35 {
   transform: rotate(210deg);
 }
-.clock__stroke--36 {
+.header__clock-stroke--36 {
   transform: rotate(216deg);
 }
-.clock__stroke--37 {
+.header__clock-stroke--37 {
   transform: rotate(222deg);
 }
-.clock__stroke--38 {
+.header__clock-stroke--38 {
   transform: rotate(228deg);
 }
-.clock__stroke--39 {
+.header__clock-stroke--39 {
   transform: rotate(234deg);
 }
-.clock__stroke--40 {
+.header__clock-stroke--40 {
   transform: rotate(240deg);
 }
-.clock__stroke--41 {
+.header__clock-stroke--41 {
   transform: rotate(246deg);
 }
-.clock__stroke--42 {
+.header__clock-stroke--42 {
   transform: rotate(252deg);
 }
-.clock__stroke--43 {
+.header__clock-stroke--43 {
   transform: rotate(258deg);
 }
-.clock__stroke--44 {
+.header__clock-stroke--44 {
   transform: rotate(264deg);
 }
-.clock__stroke--45 {
+.header__clock-stroke--45 {
   transform: rotate(270deg);
 }
-.clock__stroke--46 {
+.header__clock-stroke--46 {
   transform: rotate(276deg);
 }
-.clock__stroke--47 {
+.header__clock-stroke--47 {
   transform: rotate(282deg);
 }
-.clock__stroke--48 {
+.header__clock-stroke--48 {
   transform: rotate(288deg);
 }
-.clock__stroke--49 {
+.header__clock-stroke--49 {
   transform: rotate(294deg);
 }
-.clock__stroke--50 {
+.header__clock-stroke--50 {
   transform: rotate(300deg);
 }
-.clock__stroke--51 {
+.header__clock-stroke--51 {
   transform: rotate(306deg);
 }
-.clock__stroke--52 {
+.header__clock-stroke--52 {
   transform: rotate(312deg);
 }
-.clock__stroke--53 {
+.header__clock-stroke--53 {
   transform: rotate(318deg);
 }
-.clock__stroke--54 {
+.header__clock-stroke--54 {
   transform: rotate(324deg);
 }
-.clock__stroke--55 {
+.header__clock-stroke--55 {
   transform: rotate(330deg);
 }
-.clock__stroke--56 {
+.header__clock-stroke--56 {
   transform: rotate(336deg);
 }
-.clock__stroke--57 {
+.header__clock-stroke--57 {
   transform: rotate(342deg);
 }
-.clock__stroke--58 {
+.header__clock-stroke--58 {
   transform: rotate(348deg);
 }
-.clock__stroke--59 {
+.header__clock-stroke--59 {
   transform: rotate(354deg);
 }
 .header__dclock {
