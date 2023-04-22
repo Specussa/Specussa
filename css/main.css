@@ -284,17 +284,11 @@ html, body {
 	background-size: 400% 400%;
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
-  -webkit-animation: gradient 5s ease infinite;
-	animation: gradient 5s ease infinite;
   box-shadow: 0 0 0 5px #fff;
   margin: 0 auto 20px;
   position: relative;
   text-align: center;
   padding-top: 25px;
-  -webkit-transition: background 0.3s;
-  -moz-transition: background 0.3s;
-  -o-transition: background 0.3s;
-  transition: background 0.3s;
 }
 .header__speclogo-bounce {
   opacity: 0;
@@ -717,7 +711,10 @@ html, body {
   height: 100%;
   background: #0E6EB2;
   background: -webkit-linear-gradient(48deg, #00e56f, #0E6EB2);
+	background-size: 400% 400%;
   z-index: 0;
+  -webkit-animation: gradient 15s ease infinite;
+	animation: gradient 15s ease infinite;
   -webkit-transition: background 0.3s;
   -moz-transition: background 0.3s;
   -o-transition: background 0.3s;
@@ -725,6 +722,7 @@ html, body {
 }
 .dark .header__particles-dots {
   background: linear-gradient(48deg, #5ddcff, #3c67e3 43%, #4e00c2);
+	background-size: 400% 400%;
 }
 
 /* Btn */
