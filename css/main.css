@@ -282,14 +282,12 @@ html, body {
   background: #46C4D3;
   background: linear-gradient(-45deg, #00e56f, #00E595, #0E6E6F, #0E6EB2);
 	background-size: 400% 400%;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
   -webkit-animation: gradient 5s ease infinite;
 	animation: gradient 5s ease infinite;
-  -webkit-animation-name: 'gradient';
-  animation-name: 'gradient';
-  -webkit-animation-duration: 5s ease infinite;
-  animation-duration: 5s ease infinite;
   box-shadow: 0 0 0 5px #fff;
-  margin: 0 auto 40px;
+  margin: 0 auto 20px;
   position: relative;
   text-align: center;
   padding-top: 25px;
@@ -312,7 +310,9 @@ html, body {
   animation-delay: 1s;
 }
 .dark .header__speclogo {
+  background: #4e00c2;
   background: linear-gradient(-45deg, #5ddcff, #0E6E6F, #3c67e3, #4e00c2);
+	background-size: 400% 400%;
 }
 .header__speclogo img {
   width: 100%;
@@ -321,8 +321,8 @@ html, body {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%) rotate(-90deg);
+  transform: translate(-50%, -50%) rotate(-90deg);
   z-index: 0;
   object-fit: cover;
   object-position: center;
@@ -330,24 +330,257 @@ html, body {
 }
 .header__speclogo > .header__ball {
   display: block;
-  width: 15px;
-  height: 15px;
   border-radius: 50%;
   position: absolute;
   background: #fff;
   z-index: 1;
 }
 .header__ball:nth-of-type(1) {
-  -webkit-animation: rotate 24s infinite linear;
-  animation: rotate 24s infinite linear;
-  bottom: 46%;
-  left: 46%;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: rotate--hour 43200s infinite linear;
+  animation: rotate--hour 43200s infinite linear;
+  bottom: 45%;
+  left: 45%;
+  background: linear-gradient(var(--rotate), #00e56f, #0da356 43%, #0E6EB2);
+  z-index: 1;
 }
 .header__ball:nth-of-type(2) {
-  -webkit-animation: rotate2 2s infinite linear;
-  animation: rotate2 2s infinite linear;
+  width: 15px;
+  height: 15px;
+  -webkit-animation: rotate--minute 3600s infinite linear;
+  animation: rotate--minute 3600s infinite linear;
   bottom: 46%;
   right: 46%;
+  background: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
+  z-index: 2;
+}
+.header__ball:nth-of-type(3) {
+  width: 12px;
+  height: 12px;
+  -webkit-animation: rotate--second 60s infinite linear;
+  animation: rotate--second 60s infinite linear;
+  bottom: 47%;
+  right: 47%;
+  background: white;
+  z-index: 3;
+}
+.clock {
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 210px;
+  overflow: hidden;
+}
+.clock__stroke {
+  margin-left: -0.5em;
+  margin-top: -0.5em;
+  font-size: inherit;
+  position: absolute;
+  display: block;
+  height: 1em;
+  width: 1em;
+  left: 50%;
+  top: 50%;
+}
+.clock__stroke::after {
+  content: "";
+  border-radius: 0 0 0.02em 0.02em;
+  background-color: #fff;
+  margin-left: -0.01em;
+  position: absolute;
+  display: block;
+  height: 0.035em;
+  width: 0.017em;
+  top: 0.01em;
+  left: 50%;
+}
+.clock__stroke--small::after {
+  content: "";
+  border-radius: 0 0 0.0125em 0.0125em;
+  height: 0.025em;
+  width: 0.005em;
+}
+.clock__stroke--1 {
+  transform: rotate(6deg);
+}
+.clock__stroke--2 {
+  transform: rotate(12deg);
+}
+.clock__stroke--3 {
+  transform: rotate(18deg);
+}
+.clock__stroke--4 {
+  transform: rotate(24deg);
+}
+.clock__stroke--5 {
+  transform: rotate(30deg);
+}
+.clock__stroke--6 {
+  transform: rotate(36deg);
+}
+.clock__stroke--7 {
+  transform: rotate(42deg);
+}
+.clock__stroke--8 {
+  transform: rotate(48deg);
+}
+.clock__stroke--9 {
+  transform: rotate(54deg);
+}
+.clock__stroke--10 {
+  transform: rotate(60deg);
+}
+.clock__stroke--11 {
+  transform: rotate(66deg);
+}
+.clock__stroke--12 {
+  transform: rotate(72deg);
+}
+.clock__stroke--13 {
+  transform: rotate(78deg);
+}
+.clock__stroke--14 {
+  transform: rotate(84deg);
+}
+.clock__stroke--15 {
+  transform: rotate(90deg);
+}
+.clock__stroke--16 {
+  transform: rotate(96deg);
+}
+.clock__stroke--17 {
+  transform: rotate(102deg);
+}
+.clock__stroke--18 {
+  transform: rotate(108deg);
+}
+.clock__stroke--19 {
+  transform: rotate(114deg);
+}
+.clock__stroke--20 {
+  transform: rotate(120deg);
+}
+.clock__stroke--21 {
+  transform: rotate(126deg);
+}
+.clock__stroke--22 {
+  transform: rotate(132deg);
+}
+.clock__stroke--23 {
+  transform: rotate(138deg);
+}
+.clock__stroke--24 {
+  transform: rotate(144deg);
+}
+.clock__stroke--25 {
+  transform: rotate(150deg);
+}
+.clock__stroke--26 {
+  transform: rotate(156deg);
+}
+.clock__stroke--27 {
+  transform: rotate(162deg);
+}
+.clock__stroke--28 {
+  transform: rotate(168deg);
+}
+.clock__stroke--29 {
+  transform: rotate(174deg);
+}
+.clock__stroke--30 {
+  transform: rotate(180deg);
+}
+.clock__stroke--31 {
+  transform: rotate(186deg);
+}
+.clock__stroke--32 {
+  transform: rotate(192deg);
+}
+.clock__stroke--33 {
+  transform: rotate(198deg);
+}
+.clock__stroke--34 {
+  transform: rotate(204deg);
+}
+.clock__stroke--35 {
+  transform: rotate(210deg);
+}
+.clock__stroke--36 {
+  transform: rotate(216deg);
+}
+.clock__stroke--37 {
+  transform: rotate(222deg);
+}
+.clock__stroke--38 {
+  transform: rotate(228deg);
+}
+.clock__stroke--39 {
+  transform: rotate(234deg);
+}
+.clock__stroke--40 {
+  transform: rotate(240deg);
+}
+.clock__stroke--41 {
+  transform: rotate(246deg);
+}
+.clock__stroke--42 {
+  transform: rotate(252deg);
+}
+.clock__stroke--43 {
+  transform: rotate(258deg);
+}
+.clock__stroke--44 {
+  transform: rotate(264deg);
+}
+.clock__stroke--45 {
+  transform: rotate(270deg);
+}
+.clock__stroke--46 {
+  transform: rotate(276deg);
+}
+.clock__stroke--47 {
+  transform: rotate(282deg);
+}
+.clock__stroke--48 {
+  transform: rotate(288deg);
+}
+.clock__stroke--49 {
+  transform: rotate(294deg);
+}
+.clock__stroke--50 {
+  transform: rotate(300deg);
+}
+.clock__stroke--51 {
+  transform: rotate(306deg);
+}
+.clock__stroke--52 {
+  transform: rotate(312deg);
+}
+.clock__stroke--53 {
+  transform: rotate(318deg);
+}
+.clock__stroke--54 {
+  transform: rotate(324deg);
+}
+.clock__stroke--55 {
+  transform: rotate(330deg);
+}
+.clock__stroke--56 {
+  transform: rotate(336deg);
+}
+.clock__stroke--57 {
+  transform: rotate(342deg);
+}
+.clock__stroke--58 {
+  transform: rotate(348deg);
+}
+.clock__stroke--59 {
+  transform: rotate(354deg);
+}
+.header__dclock {
+  display: flex;
+  margin: 0 auto 20px;
+  gap: 10px;
 }
 .header__moscow {
   position: absolute;
@@ -1006,22 +1239,6 @@ html, body {
 }
 @keyframes loading {
   100% {text-shadow:20px 0 70px var(--dark-bg);color:var(--dark-bg);}
-}
-@-webkit-keyframes rotate {
-  0% {-webkit-transform: rotate(0deg) translate(-102px) rotate(0deg); }
-  100% {-webkit-transform: rotate(360deg) translate(-102px) rotate(-360deg); }
-}
-@keyframes rotate {
-  0% {transform: rotate(0deg) translate(-102px) rotate(0deg); }
-  100% {transform: rotate(360deg) translate(-102px) rotate(-360deg); }
-}
-@-webkit-keyframes rotate2 {
-  0% {-webkit-transform: rotate(0deg) translate(102px) rotate(0deg); }
-  100% {-webkit-transform: rotate(360deg) translate(102px) rotate(-360deg); }
-}
-@keyframes rotate2 {
-  0% {transform: rotate(0deg) translate(102px) rotate(0deg); }
-  100% {transform: rotate(360deg) translate(102px) rotate(-360deg); }
 }
 @-webkit-keyframes pulse {
   20% {-webkit-transform: scale(0.9)}
