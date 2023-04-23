@@ -887,7 +887,7 @@ html, body {
 
 /* Projects  */
 .projects__card {
-  padding: 3px;
+  padding: 4px;
   position: relative;
   display: flex;
   border-radius: 12px;
