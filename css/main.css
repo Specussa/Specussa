@@ -277,6 +277,7 @@ html, body {
 .header__speclogo {
   width: 200px;
   height: 200px;
+  padding-top: 25px;
   border-radius: 50%;
   background: #46C4D3;
   background: -webkit-linear-gradient(132deg, #00e56f, #00E595, #0E6E6F, #0E6EB2);
@@ -288,7 +289,18 @@ html, body {
   margin: 0 auto 20px;
   position: relative;
   text-align: center;
-  padding-top: 25px;
+	-webkit-animation: gradient 5s ease infinite;
+	animation: gradient 5s ease infinite;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  transition: background 0.3s;
+}
+.dark .header__speclogo {
+  background: #3c67e3;
+  background: -webkit-linear-gradient(--rotate, #5ddcff, #0E6E6F, #3c67e3, #4e00c2);
+  background: linear-gradient(132deg, #5ddcff, #0E6E6F, #3c67e3, #4e00c2);
+	background-size: 400% 400%;
 }
 .header__speclogo-bounce {
   opacity: 0;
@@ -302,12 +314,6 @@ html, body {
   animation-fill-mode: forwards;
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
-}
-.dark .header__speclogo {
-  background: #3c67e3;
-  background: -webkit-linear-gradient(--rotate, #5ddcff, #0E6E6F, #3c67e3, #4e00c2);
-  background: linear-gradient(132deg, #5ddcff, #0E6E6F, #3c67e3, #4e00c2);
-	background-size: 400% 400%;
 }
 .header__speclogo img {
   width: 100%;
