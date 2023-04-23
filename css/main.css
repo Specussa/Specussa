@@ -933,9 +933,8 @@ html, body {
   background: #0da356;
   background: -webkit-linear-gradient(132deg, #00e56f, #0da356 43%, #0E6EB2);
   background: linear-gradient(132deg, #00e56f, #0da356 43%, #0E6EB2);
-  opacity: 1;
   border-radius: 50%;
-  z-index: 0;
+  z-index: -2;
 }
 .dark .project::after {
   background: #3c67e3;
