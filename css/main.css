@@ -280,10 +280,8 @@ html, body {
   height: 200px;
   border-radius: 50%;
   background: #46C4D3;
-  background: -webkit-linear-gradient(132deg, #00e56f, #00E595, #0E6E6F, #0E6EB2);
-  background: linear-gradient(132deg, #00e56f, #00E595, #0E6E6F, #0E6EB2);
-  background: -webkit-linear-gradient(var(--rotate), #00e56f, #00E595, #0E6E6F, #0E6EB2);
-  background: linear-gradient(var(--rotate), #00e56f, #00E595, #0E6E6F, #0E6EB2);
+  background: -webkit-linear-gradient(/* var(--rotate) */ 132deg, #00e56f, #00E595, #0E6E6F, #0E6EB2);
+  background: linear-gradient(/* var(--rotate) */ 132deg, #00e56f, #00E595, #0E6E6F, #0E6EB2);
 	background-size: 400% 400%;
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
@@ -308,10 +306,8 @@ html, body {
 }
 .dark .header__speclogo {
   background: #3c67e3;
-  background: -webkit-linear-gradient(132deg, #5ddcff, #0E6E6F, #3c67e3, #4e00c2);
-  background: linear-gradient(var(--rotate), #5ddcff, #0E6E6F, #3c67e3, #4e00c2);
-  background: -webkit-linear-gradient(132deg, #5ddcff, #0E6E6F, #3c67e3, #4e00c2);
-  background: linear-gradient(var(--rotate), #5ddcff, #0E6E6F, #3c67e3, #4e00c2);
+  background: -webkit-linear-gradient(--rotate, #5ddcff, #0E6E6F, #3c67e3, #4e00c2);
+  background: linear-gradient(/* var(--rotate) */ 132deg, #5ddcff, #0E6E6F, #3c67e3, #4e00c2);
 	background-size: 400% 400%;
 }
 .header__speclogo img {
@@ -343,10 +339,8 @@ html, body {
   bottom: 45%;
   left: 45%;
   background: #0da356;
-  background: -webkit-linear-gradient(132deg, #00e56f, #0da356 43%, #0E6EB2);
-  background: linear-gradient(132deg, #00e56f, #0da356 43%, #0E6EB2);
-  background: -webkit-linear-gradient(var(--rotate), #00e56f, #0da356 43%, #0E6EB2);
-  background: linear-gradient(var(--rotate), #00e56f, #0da356 43%, #0E6EB2);
+  background: -webkit-linear-gradient(/* var(--rotate) */ 132deg, #00e56f, #0da356 43%, #0E6EB2);
+  background: linear-gradient(/* var(--rotate) */ 132deg, #00e56f, #0da356 43%, #0E6EB2);
   z-index: 1;
 }
 .header__ball:nth-of-type(2) {
@@ -357,10 +351,8 @@ html, body {
   bottom: 46%;
   right: 46%;
   background: #3c67e3;
-  background: -webkit-linear-gradient(132deg, #5ddcff, #3c67e3 43%, #4e00c2);
-  background: linear-gradient(132deg, #5ddcff, #3c67e3 43%, #4e00c2);
-  background: -webkit-linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
-  background: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
+  background: -webkit-linear-gradient(/* var(--rotate) */ 132deg, #5ddcff, #3c67e3 43%, #4e00c2);
+  background: linear-gradient(/* var(--rotate) */ 132deg, #5ddcff, #3c67e3 43%, #4e00c2);
   z-index: 2;
 }
 .header__ball:nth-of-type(3) {
@@ -783,10 +775,8 @@ html, body {
   width: 100%;
   height: 100%;
   background: #0E6EB2;
-  background: -webkit-linear-gradient(45deg, #00e56f, #0E6EB2);
-  background: linear-gradient(45deg, #00e56f, #0E6EB2);
-  background: -webkit-linear-gradient(var(--rotate), #00e56f, #0E6EB2);
-  background: linear-gradient(var(--rotate), #00e56f, #0E6EB2);
+  background: -webkit-linear-gradient(/* var(--rotate) */ 132deg, #00e56f, #0E6EB2);
+  background: linear-gradient(/* var(--rotate) */ 132deg, #00e56f, #0E6EB2);
 	background-size: 400% 400%;
   z-index: 0;
   -webkit-animation: gradient 15s ease infinite;
@@ -798,10 +788,8 @@ html, body {
 }
 .dark .header__particles-dots {
   background: #3c67e3;
-  background: -webkit-linear-gradient(132deg, #5ddcff, #3c67e3 43%, #4e00c2);
-  background: linear-gradient(132deg, #5ddcff, #3c67e3 43%, #4e00c2);
-  background: -webkit-linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
-  background: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
+  background: -webkit-linear-gradient(/* var(--rotate) */ 132deg, #5ddcff, #3c67e3 43%, #4e00c2);
+  background: linear-gradient(/* var(--rotate) */ 132deg, #5ddcff, #3c67e3 43%, #4e00c2);
 	background-size: 400% 400%;
 }
 
@@ -887,10 +875,8 @@ html, body {
   height: 101%;
   border-radius: 12px;
   background: #0da356;
-  background: -webkit-linear-gradient(132deg, #00e56f, #0da356 43%, #0E6EB2);
-  background: linear-gradient(132deg, #00e56f, #0da356 43%, #0E6EB2);
-  background: -webkit-linear-gradient(var(--rotate), #00e56f, #0da356 43%, #0E6EB2);
-  background: linear-gradient(var(--rotate), #00e56f, #0da356 43%, #0E6EB2);
+  background: -webkit-linear-gradient(/* var(--rotate) */ 132deg, #00e56f, #0da356 43%, #0E6EB2);
+  background: linear-gradient(/* var(--rotate) */ 132deg, #00e56f, #0da356 43%, #0E6EB2);
   position: absolute;
   top: -0.5%;
   left: -0.5%;
@@ -904,10 +890,8 @@ html, body {
 }
 .dark .projects__card::before {
   background: #3c67e3;
-  background: -webkit-linear-gradient(132deg, #5ddcff, #3c67e3 43%, #4e00c2);
-  background: linear-gradient(132deg, #5ddcff, #3c67e3 43%, #4e00c2);
-  background: -webkit-linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
-  background: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
+  background: -webkit-linear-gradient(/* var(--rotate) */ 132deg, #5ddcff, #3c67e3 43%, #4e00c2);
+  background: linear-gradient(/* var(--rotate) */ 132deg, #5ddcff, #3c67e3 43%, #4e00c2);
 }
 .projects__card::after {
   position: absolute;
@@ -926,10 +910,8 @@ html, body {
   -ms-filter: blur(75px);
   filter: blur(75px);
   background: #0da356;
-  background: -webkit-linear-gradient(132deg, #00e56f, #0da356 43%, #0E6EB2);
-  background: linear-gradient(132deg, #00e56f, #0da356 43%, #0E6EB2);
-  background: -webkit-linear-gradient(var(--rotate), #00e56f, #0da356 43%, #0E6EB2);
-  background: linear-gradient(var(--rotate), #00e56f, #0da356 43%, #0E6EB2);
+  background: -webkit-linear-gradient(/* var(--rotate) */ 132deg, #00e56f, #0da356 43%, #0E6EB2);
+  background: linear-gradient(/* var(--rotate) */ 132deg, #00e56f, #0da356 43%, #0E6EB2);
   opacity: 1;
   /* -webkit-animation: spin 3.5s linear infinite;
   animation: spin 3.5s linear infinite;
@@ -942,10 +924,8 @@ html, body {
 }
 .dark .projects__card::after {
   background: #3c67e3;
-  background: -webkit-linear-gradient(132deg, #5ddcff, #3c67e3 43%, #4e00c2);
-  background: linear-gradient(132deg, #5ddcff, #3c67e3 43%, #4e00c2);
-  background: -webkit-linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
-  background: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
+  background: -webkit-linear-gradient(/* var(--rotate) */ 132deg, #5ddcff, #3c67e3 43%, #4e00c2);
+  background: linear-gradient(/* var(--rotate) */ 132deg, #5ddcff, #3c67e3 43%, #4e00c2);
 }
 .projects__link {
   background-color: var(--project-card-bg);
@@ -1368,12 +1348,12 @@ html, body {
 	50% {background-position: 100% 50%;}
 	100% {background-position: 0% 50%;}
 }
-@property --rotate {
+/* @property --rotate {
   syntax: "<angle>";
-  initial-value: 132deg;
   inherits: false;
+  initial-value: 132deg;
 }
-/* @-webkit-keyframes spin {
+@-webkit-keyframes spin {
   0% {--rotate: 0deg;}
   100% {--rotate: 360deg;}
 }
