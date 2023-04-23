@@ -894,6 +894,8 @@ html, body {
   font-size: 1.5em;
   cursor: pointer;
   z-index: 2;
+  -webkit-transform: translate3d(0, 0, 200px);
+  transform: translate3d(0, 0, 200px);
   overflow: hidden;
 }
 .projects__card:before, .project__back {
@@ -934,6 +936,8 @@ html, body {
   background: -webkit-linear-gradient(132deg, #00e56f, #0da356 43%, #0E6EB2);
   background: linear-gradient(132deg, #00e56f, #0da356 43%, #0E6EB2);
   border-radius: 50%;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
   z-index: -2;
 }
 .dark .project::after {
