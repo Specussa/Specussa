@@ -898,20 +898,20 @@ html, body {
   transform: translate3d(0, 0, 200px);
   overflow: hidden;
 }
-.projects__card:before, .project__back {
+.projects__card:before {
   -webkit-animation: spin 3s ease infinite;
   animation: spin 3s ease infinite;
 }
 .projects__card::before {
   content: "";
-  width: 150%;
-  height: 150%;
+  width: 170%;
+  height: 170%;
   background: #0da356;
   background: -webkit-linear-gradient(132deg, #00e56f, #0da356 43%, #0E6EB2);
   background: linear-gradient(132deg, #00e56f, #0da356 43%, #0E6EB2);
   position: absolute;
-  top: -25%;
-  left: -25%;
+  top: -35%;
+  left: -35%;
   z-index: 1;
 }
 .dark .projects__card::before {
@@ -1061,12 +1061,13 @@ html, body {
   flex-direction: column;
 }
 .biography__card {
-  width: 30%;
+  width: 100%;
+  max-width: 30%;
   height: 270px;
 }
 .biography__card-tsuru{
   width: auto;
-  height: auto;
+  max-width: max-content;
   flex: 0 0 auto;
   border-radius: 50%;
 }
